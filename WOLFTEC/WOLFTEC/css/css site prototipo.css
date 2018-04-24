@@ -1,0 +1,327 @@
+/*
+geral
+*/
+
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+body{
+	font-family: " Poppins-Regular, sans-serif; 
+	color: #0033cc;	
+}
+
+h1 {
+	color: #666666;
+}
+
+
+h2{
+	color:#666666;
+} 
+
+
+h3{
+	margin:0;
+	font-family: "robotos slap"	Helvertica,Arial, sans-serif; 
+	font-weight: 700; 
+}
+
+.botao {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color:#0033cc;
+	font-size:.9em;
+	border-radius: 3px;
+}
+/*
+navegação
+*/
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+	background-color:blue;
+	
+}
+
+nav > a {
+	text-decoration:none;
+	color: #666666;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: Poppins-Regular;
+
+}
+
+nav ul {
+	list-style:none;
+	padding: 0;
+	display: flex;
+	flex-direction:  column;
+	align-items: center;
+	width:100%;
+
+}
+
+nav ul li {
+	text-align: center;
+	width:100%;
+
+}
+nav ul li a {
+	display:  inline-block;
+	padding: 10px 0;
+	text-decoration: none;
+	color:white ;
+}
+
+/*cabeçario*/
+
+header {
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	display: :flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+
+}
+
+header p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+
+}
+
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  	-o-transition: all 0.4s;
+  	-moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #000099;
+}
+
+
+/*
+sobre
+*/
+
+
+#sobre
+{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding:0 20px 20px
+	color: black;
+	
+}
+
+#sobre div{
+	padding:30px;
+	margin:20px;
+	background-color: white ;
+}
+
+#sobre p 
+
+{
+	color:white;
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+
+
+}
+
+#sobre .botao{
+	color: #fff;
+	background-color:#0033cc;
+}
+
+/*
+SERVICOS
+*/
+#serviços {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;;
+	align-items: center;
+
+
+}
+
+#serviços div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+
+
+}
+
+/*portifolio*/
+
+#portifolio {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+
+}
+
+#portifolio h2 {
+	margin-bottom: 20px;
+
+}
+
+#portifolio img {
+	width: 100%;
+}
+
+/*contato*/
+
+#contato {
+	color:black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-items: :center;
+	text-align: center;
+	padding: 20px
+
+}
+
+/*footer*/
+
+#footer{
+	text-align: center;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px){
+	/*
+	NAVEGAÇÃO
+	*/
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav ul {
+		flex-direction: row;
+		width: 70%;
+
+	}
+
+	/*cabecario*/
+
+	header{
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+	}
+
+	/*sobre*/
+
+	#sobre{
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: ;
+250px
+	}
+	/*sobre*/
+	#serviços{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin:0 auto; 
+	}
+
+	#serviços h2{
+		text-align: center;
+		width: 100%;
+	}
+
+	#serviços div { 
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	/* portifolio*/
+
+	#portifolio{ 
+		flex-direction: row;
+		flex-wrap: wrap;
+    }
+    #portifolio h2 {
+    	width: 100%;
+    	text-align: center;
+
+    }
+
+    #portifolio img {
+    	width: 33.3333333333%;
+    }
+
+    /*contato*/
+
+    #contato{
+    	flex-direction: row;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	max-width: 500px;
+    	margin:0 auto;
+    }
+
+    #contato h2,
+    #contato p{
+    	width: 100%
+
+    }
+}
+
