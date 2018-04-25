@@ -22,11 +22,11 @@
 </head>
 <body runat="server">
     <nav>
-			<a href="#">WOFLTEC</a>
+			<a href="#">WOLFTEC</a>
 			<ul>
 				<li><a href="#serviços">SERVIÇOS</a></li>
 				<li><a href="#contato">CONTATO</a></li>
-				<li><a href="#">LOGOUT</a></li>
+				<li><a href="LogOut.aspx">LOGOUT</a></li>
 			</ul>
 		</nav>
 
