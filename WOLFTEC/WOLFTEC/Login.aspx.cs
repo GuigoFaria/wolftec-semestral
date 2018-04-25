@@ -33,7 +33,7 @@ namespace WOLFTEC {
                     } else {
                         //usuário e senha OK!
                         id = (int)o;
-                        Server.Transfer("Default.aspx");
+                        Server.Transfer("Grafico.aspx");
                     }
                     
                    

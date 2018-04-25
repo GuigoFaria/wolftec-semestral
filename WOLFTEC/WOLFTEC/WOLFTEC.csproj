@@ -85,6 +85,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Esqueci_a_senha.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Grafico.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Grafico.aspx.cs">
+      <DependentUpon>Grafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grafico.aspx.designer.cs">
+      <DependentUpon>Grafico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
