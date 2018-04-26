@@ -2,38 +2,19 @@
 geral
 */
 
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-}
 body{
-	font-family: " Poppins-Regular, sans-serif; 
-	color: #0033cc;	
+	font-family: "Open 	Sans",Helvertica,Arial, sans-serif; 
+	color: #4d4d4d;	
+
 }
 
 h1 {
-	color: #666666;
+	color: #f1f1f1;
 }
 
 
 h2{
-	color:#666666;
+	color:black;
 } 
 
 
@@ -44,10 +25,10 @@ h3{
 }
 
 .botao {
-	color: #fff;
+	color: #f1f1f1;
 	text-decoration: none;
 	padding: 10px 30px;
-	background-color:#0033cc;
+	background-color:#ff0000;
 	font-size:.9em;
 	border-radius: 3px;
 }
@@ -55,19 +36,19 @@ h3{
 navegação
 */
 nav{
+
 	display: flex;
 	flex-direction: column;
 	align-items: center ;
-	background-color:blue;
-	
+	background-color: black;
 }
 
 nav > a {
 	text-decoration:none;
-	color: #666666;
+	color: #f1f1f1;
 	font-weight: 700;
 	font-size: 28px;
-	font-family: Poppins-Regular;
+	font-family: pacifico ,serif;
 
 }
 
@@ -96,6 +77,11 @@ nav ul li a {
 /*cabeçario*/
 
 header {
+	
+    background: -webkit-linear-gradient(-135deg, #251580, #000000);
+    background: -o-linear-gradient(-135deg, #251580, #000000);
+    background: -moz-linear-gradient(-135deg, #251580, #000000);
+    background: linear-gradient(-135deg, #251580, #000000);
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
@@ -104,39 +90,15 @@ header {
 	align-items: center;
 	text-align: center;
 	padding: 20px;
+	
 
 }
 
 header p {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-}
+	margin-bottom: 2em;
+	color: #f1f1f1;
 
 
-}
-
-a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  	-o-transition: all 0.4s;
-  	-moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-  color: #000099;
 }
 
 
@@ -153,14 +115,17 @@ sobre
 	align-items: center;
 	text-align: center;
 	padding:0 20px 20px
-	color: black;
+	color: white;
+
 	
 }
 
 #sobre div{
-	padding:30px;
+	padding:40px;
 	margin:20px;
-	background-color: white ;
+	background-color: black !important;
+	width: 94.7%;
+
 }
 
 #sobre p 
@@ -174,8 +139,8 @@ sobre
 }
 
 #sobre .botao{
-	color: #fff;
-	background-color:#0033cc;
+	background-color: red;
+	color: white;
 }
 
 /*
@@ -221,23 +186,32 @@ SERVICOS
 /*contato*/
 
 #contato {
-	color:black;
+	
+	background: -webkit-linear-gradient(-135deg, #251580, #000000);
+    background: -o-linear-gradient(-135deg, #251580, #000000);
+    background: -moz-linear-gradient(-135deg, #251580, #000000);
+    background: linear-gradient(-135deg, #251580, #000000);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-items: :center;
 	text-align: center;
-	padding: 20px
+	padding: 100px;
+
+	
+
 
 }
 
 /*footer*/
 
 #footer{
+	
 	text-align: center;
-	padding: 10px;
-	background-color: #f1f1f1;
+	padding: 100px;
+	
 }
+
 
 /* media queries */
 
@@ -269,8 +243,8 @@ SERVICOS
 		height: 250px;
 		height: 30vh;
 		justify-content: center;
-		min-height: ;
-250px
+		min-height: 250px;
+
 	}
 	/*sobre*/
 	#serviços{
@@ -314,12 +288,13 @@ SERVICOS
     	flex-direction: row;
     	flex-wrap: wrap;
     	justify-content: space-around;
-    	max-width: 500px;
+    	
     	margin:0 auto;
     }
 
     #contato h2,
     #contato p{
+    	color:white;
     	width: 100%
 
     }
