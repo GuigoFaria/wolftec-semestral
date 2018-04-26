@@ -46,7 +46,7 @@
 			type: 'line',
 			data: {
 				datasets: [{
-					backgroundColor: window.chartColors.red,
+	
 					label: "Temperatura x Tempo",
 					backgroundColor: window.chartColors.blue,
 					type: 'line',
@@ -65,7 +65,7 @@
 						scaleLabel: {
 							display: true,
 							labelString: 'Temperature'
-                        },
+                        },//
                         ticks: {
                             beginAtZero:true
                         }
