@@ -26,7 +26,7 @@
 			<ul>
 				<li><a href="#serviços">SERVIÇOS</a></li>
 				<li><a href="#contato">CONTATO</a></li>
-				<li><a href="LogOut.aspx">LOGOUT</a></li>
+				<li><a href="Default.aspx">LOGOUT</a></li>
 			</ul>
 		</nav>
 
@@ -46,8 +46,8 @@
 			type: 'line',
 			data: {
 				datasets: [{
-					backgroundColor: window.chartColors.red,
-					label: "Temperature x Time",
+	
+					label: "Temperatura x Tempo",
 					backgroundColor: window.chartColors.blue,
 					type: 'line',
 				}]
@@ -65,7 +65,7 @@
 						scaleLabel: {
 							display: true,
 							labelString: 'Temperature'
-                        },
+                        },//
                         ticks: {
                             beginAtZero:true
                         }
@@ -115,7 +115,7 @@
                 chart.update();
 			});
 			
-			document.getElementById('average').textContent = obj.average
+            document.getElementById('average').textContent = obj.average
 		} 
 		
 		get_data();
