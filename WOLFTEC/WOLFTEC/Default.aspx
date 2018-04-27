@@ -25,19 +25,19 @@
 		</nav>
 
 		<header>
- +
+ 
   		<section id="sobre">
- -			
- -		
- +		    
- +			<h1 class="red">QUEM SOMOS </h1>
- +			<p> A WOLFTEC E UMA EMPRESA DE SOLUCÕES DE TECNOLOGIA , ENVOLVENDO ARDUINO PARA SUAS SOLUCÕES </p>
+ 			
+ 		
+ 		    
+ 			<h1 class="red">QUEM SOMOS </h1>
+ 			<p> A WOLFTEC E UMA EMPRESA DE SOLUCÕES DE TECNOLOGIA , DESENVOLVENDO SOLUÇÕES DE IoT PARA A SUA EMPRESA! </p>
   			<a href="#sobre" class="botao">ver mais</a>
- -		
- +			
+ 		
+ 			
   		</section>
   
- +		</header>
+ 		</header>
 
 		<section id="sobre">
 			<div>
@@ -87,7 +87,7 @@
 			<p>ENTRE EM CONTATO CONOSCO</p>
 			<div>
 				<img src="images/h6.png" width="70px" alt="telefone"/>
- +				<p><a href="tel:11989597217">(11) 9-8959-7217</a></p>
+ 				<p><a href="tel:11989597217">(11) 9-8959-7217</a></p>
 			</div>
 				
 			<div>
@@ -97,7 +97,7 @@
 		</section>
 
 		<footer>
-			<p> desenvolvido por WOFLTEC </p>
+			<p> Desenvolvido por WOLFTEC Solutions. </p>
 		</footer>
 </body>
 </html>
