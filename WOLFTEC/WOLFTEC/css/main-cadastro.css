@@ -168,11 +168,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 25px;
-  background-color: #9053c7;
+  /* background-color: #9053c7;
   background: -webkit-linear-gradient(-135deg, #33ccff, #0033cc);
   background: -o-linear-gradient(-135deg, #33ccff, #0033cc);
   background: -moz-linear-gradient(-135deg, #33ccff, #0033cc);
-  background: linear-gradient(-135deg, #33ccff, #0033cc); 
+  background: linear-gradient(-135deg, #33ccff, #0033cc); */
 }
 
  .wrap-login100 {

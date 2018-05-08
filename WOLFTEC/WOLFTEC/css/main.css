@@ -173,12 +173,10 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: #090275cc
-  background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #33ccff, #0033cc);
-  background: -o-linear-gradient(-135deg, #33ccff, #0033cc);
-  background: -moz-linear-gradient(-135deg, #33ccff, #0033cc);
-  background: linear-gradient(-135deg, #33ccff, #0033cc);  */
+  background: -webkit-linear-gradient(-135deg, #000000, #251580);
+  background: -o-linear-gradient(-135deg, #000000, #251580);
+  background: -moz-linear-gradient(-135deg, #000000, #251580);
+  background: linear-gradient(-135deg, #000000, #251580);  */
 }
 
 .wrap-login100 {
@@ -217,7 +215,7 @@ div-select {
     width: 100%;
   height: 50px;
 
-  background: #0033cc;
+  background: #251580;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -365,7 +363,7 @@ div-select {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #3399ff;
+  color: #251580;
   padding-left: 28px;
 }
 
@@ -393,7 +391,7 @@ div-select {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #0033cc;
+  background: #251580;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
