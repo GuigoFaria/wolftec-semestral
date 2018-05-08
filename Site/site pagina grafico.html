@@ -2,8 +2,10 @@
 <html>
 <head>
 		<title>Line Chart</title>
-	<link rel="stylesheet" type="text/css" href="css pagina grafico.css">
+	<link rel="stylesheet" type="text/css" href="site pagina grafico.html">
+
 	<link rel="stylesheet" type="text/css" href="normalize.css">
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 	<script src="http://www.chartjs.org/dist/2.7.1/Chart.js"></script>
 	<script src="http://www.chartjs.org/samples/latest/utils.js"></script>
@@ -106,7 +108,7 @@
                 }
 
                 chart.data.labels.push(this.time++);
-                chart.data.datasets[0].data.push(parseFloat(data));
+                chart.data.datasets[0].data.push(12);
                 chart.update();
 			});
 			
@@ -117,6 +119,7 @@
 
         setInterval(() => {
             get_data();
+            chart.data.datasets[0].data.push(12);
         }, 1000);
 
 	</script>

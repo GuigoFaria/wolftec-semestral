@@ -3,6 +3,7 @@ geral
 */
 
 body{
+	
 	font-family: "Open 	Sans",Helvertica,Arial, sans-serif; 
 	color: #4d4d4d;	
 
@@ -23,6 +24,12 @@ h3{
 	font-family: "robotos slap"	Helvertica,Arial, sans-serif; 
 	font-weight: 700; 
 }
+
+
+.red{
+	font-size:90px;
+}
+
 
 .botao {
 	color: #f1f1f1;
@@ -121,7 +128,7 @@ sobre
 }
 
 #sobre div{
-	padding:40px;
+	padding:50px;
 	margin:20px;
 	background-color: black !important;
 	width: 94.7%;
@@ -166,6 +173,35 @@ SERVICOS
 
 /*portifolio*/
 
+ #slider {
+     height: 550PX;
+     width: 90%;   
+     margin: auto;
+     margin-top: 20px;
+     background: url("../images/p1.jpg") 100% / 100%;
+ }
+
+#caixa-botoes{
+	position: relative;
+	width: 40%;
+	height: 20%;
+	margin-left: 66%;
+	margin-top: 37%;
+}
+
+.botao{
+	position: center;
+ 	float: left;
+ 	width: 1px;
+ 	margin-left: 10px;
+	height: 5px;
+ 	background: #fff;
+ }
+
+
+
+
+
 #portifolio {
 	display:flex;
 	flex-direction: column;
@@ -183,6 +219,36 @@ SERVICOS
 	width: 100%;
 }
 
+
+
+/*valores*/
+
+
+#valores {
+	
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+#valores div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+
+
+}
+#valores div img {
+ padding: 30px;
+ width: 100px;
+
+}
+
+
 /*contato*/
 
 #contato {
@@ -196,21 +262,29 @@ SERVICOS
 	align-items: center;
 	align-items: :center;
 	text-align: center;
-	padding: 100px;
-
-	
-
-
-}
-
-/*footer*/
-
-#footer{
-	
-	text-align: center;
-	padding: 100px;
 	
 }
+
+
+
+#contato div img {
+
+	width: 100px;
+	
+}
+
+footer {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* media queries */
@@ -282,21 +356,38 @@ SERVICOS
     	width: 33.3333333333%;
     }
 
+
+    #valores{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin:0 auto; 
+	}
+
+	#valores div { 
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
     /*contato*/
 
     #contato{
     	flex-direction: row;
     	flex-wrap: wrap;
-    	justify-content: space-around;
-    	
-    	margin:0 auto;
+    	justify-content: space-around;    	
+    	margin:0;
+    	width: 100%;
     }
 
     #contato h2,
     #contato p{
     	color:white;
-    	width: 100%
-
-    }
+    	width:100%;
+   }
+ 
+ 
+   } 
 }
 
