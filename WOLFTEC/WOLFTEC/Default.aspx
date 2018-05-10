@@ -30,9 +30,9 @@
  			
  		
  		    
- 			<h1 class="red">QUEM SOMOS </h1>
- 			<p> A WOLFTEC E UMA EMPRESA DE SOLUCÕES DE TECNOLOGIA , DESENVOLVENDO SOLUÇÕES DE IoT PARA A SUA EMPRESA! </p>
-  			<a href="#sobre" class="botao">ver mais</a>
+ 			<h1 class="red">BEM VINDO</h1>
+			<p style="font-size:200%;"> A WOLFTEC E UMA EMPRESA DE TECNOLOGIA,ENVOLVENDO DISPOSITIVO IOT PARA NOSSA SOLUÇÃO.</p>
+			
  		
  			
   		</section>
@@ -42,7 +42,7 @@
 		<section id="sobre">
 			<div>
 			<h1>SOBRE</h1>
-			<p> A primeira regra de qualquer tecnologia utilizada nos negócios é que a automação aplicada a uma operação eficiente aumentará a eficiência. A segunda é que a automação aplicada a uma operação ineficiente aumentará a ineficiência.</p>
+			<p> Nos somos  uma empresa que atua no mercado de IOT, Focado em criação de dispositivos cujo o objetivo é capturar temperatura e mostra-la em tempo real</p>
 			<a href="#contato" class="botao">ENTRE EM CONTATO</a> </div>
 
 		</section>
@@ -69,32 +69,85 @@
 
 		<section id="portifolio">
 			<h2>PORTIFOLIO</h2>
-			
-				<img src="images/p1.jpg" alt="medição"  width="80px"/>
-				<img src="images/p1.jpg" alt="medição"  width="80px"/>
-				<img src="images/p2.jpg" alt="medição2" width="80px"/>
-				<img src="images/p3.jpg" alt="medição3" width="80px"/>
-				<img src="images/p4.jpg" alt="medição4" width="80px"/>
-				<img src="images/q1.jpg" alt="medição4" width="80px"/>
-				
-			
-			
-			
-		</section>
 
-		<section id="contato">
+
+			<div id="slider">
+
+				<div id="caixa-botoes">
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p2.jpg) 100% / 100%';
+						">
+
+					</div>
+
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p3.jpg) 100% / 100%';
+						">
+					</div>
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p4.jpg) 100% / 100%';
+						">
+					</div>
+
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p5.jpg) 100% / 100%';
+						">
+					</div>
+
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p6.jpg) 100% / 100%';
+						">
+					</div>
+
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/p1.jpg) 100% / 100%';
+						">
+					</div>
+				</div>
+
+			</div>
+			
+
+		</section>
+        <section id="valores">
+
+			<h2> VALORES</h2>
+			<div>
+				<img src="images/missao1.png" alt="medição real" width="70px" />
+			<h3>MISSÃO</h3>
+				<p> Nos tornamos maior empresa no seguimento de solição com arduino.</p>
+			</div>
+			<div>
+				<img src="images/visao1.png" alt="grafico da temperatura mensal e semanal" width="70px"/>
+			<h3> VISÃO</h3>
+				<p>É possivel consulta graficos semanais ,mensais e em datas determinadas.</p>
+			</div>
+			<div>
+				<img src="images/valores.png" width="70px" alt="configuração"/>
+			<h3>VALORES</h3>
+				<p>É Possivel alterar facilmente as configurações para emissoes de avisos e graficos das temperaturas medidas.</p>
+			</div>
+            </section>
+
+		<footer>
+
+		   <section id="contato">
+
 			<h2> CONTATO</h2>
 			<p>ENTRE EM CONTATO CONOSCO</p>
+
 			<div>
-				<img src="images/h6.png" width="70px" alt="telefone"/>
- 				<p><a href="tel:11989597217">(11) 9-8959-7217</a></p>
+				<img src="images/h6.png"  alt="telefone"/>
+				<p><a href="tel:11989597217">(11) 9-8959-7217</a></p>
 			</div>
 				
 			<div>
-				<img src="images/h5.png" width="70px" alt="email">
-				<p><a href="WOFLTEC:email@contato.com">email@contato.com</a></p>
+				<img src="images/h5.png"  alt="email"/>
+				<p><a href="WOLFTEC:email@contato.com">email@contato.com</a></p>
 			</div>
-		</section>
+
+		  </section>
+		</footer>
 
 		<footer>
 			<p> Desenvolvido por WOLFTEC Solutions. </p>
