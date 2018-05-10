@@ -66,7 +66,7 @@ nav ul li a {
 	display:  inline-block;
 	padding: 10px 0;
 	text-decoration: none;
-	color:white ;
+	color:white;
 }
 
 /*cabeçario*/
@@ -190,7 +190,7 @@ SERVICOS
 
 /*footer*/
 
-#footer{
+footer{
 	text-align: center;
 	padding: 10px;
 	background-color: #f1f1f1;
