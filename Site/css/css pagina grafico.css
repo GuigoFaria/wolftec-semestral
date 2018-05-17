@@ -1,7 +1,9 @@
 
 body{
 	font-family: "Open 	Sans",Helvertica,Arial, sans-serif; 
-	color: #4d4d4d;	
+	background-color:  #4d4d4d;
+	
+		
 }
 
 h1 {
@@ -96,104 +98,83 @@ header div {
 	position: center;
 }
 
-
-/*
-sobre
-*/
-
-
-#sobre
-{
-
-	display: flex;
-	flex-direction: column;
+.divgraf{
+	
+	display: flex; 
 	align-items: center;
-	text-align: center;
-	padding:0 20px 20px
-	color: white;
+	height: 550px;
+	width: 99.7%;
+	justify-content: space-around;
 	
 }
 
-#sobre div{
-	padding:30px;
-	margin:20px;
-	background-color: #4d4d4d !important;
-}
 
-#sobre p 
-
-{
-	color:white;
-	margin-bottom: 2.5em;
-	max-width: 1000px;
-
-
-}
-
-#sobre .botao{
-	background-color: red;
-	color: white;
-}
-
-/*
-SERVICOS
-*/
-#serviços {
-	padding: 20px;
-	display: flex;
-	flex-direction: column;;
+.graf{
+	background: -webkit-linear-gradient(-135deg, #251580, #000000);
+    background: -o-linear-gradient(-135deg, #251580, #000000);
+    background: -moz-linear-gradient(-135deg, #251580, #000000);
+    background: linear-gradient(-135deg, #251580, #000000);
+	border-radius: 10px;
+    display: flex; 
 	align-items: center;
-
-
+	height: 550px;
+	width: 1000px;
+	justify-content: space-around;
+	margin-top: 25px;
+	float:left;
+	
 }
+.graf1{
 
-#serviços div {
-	display: flex;
-	flex-direction: column;
+	background: -webkit-linear-gradient(-135deg, #251580, #000000);
+    background: -o-linear-gradient(-135deg, #251580, #000000);
+    background: -moz-linear-gradient(-135deg, #251580, #000000);
+    background: linear-gradient(-135deg, #251580, #000000);
+	border-radius: 10px;
+    display: flex; 
 	align-items: center;
-	margin-top: 30px;
-
-
-}
-
-/*portifolio*/
-
-#portifolio {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
+	height: 550px;
+	width: 300px;
+	justify-content: space-around;
+	margin-top: 25px;
+	float:left;
 
 }
+.analytics{
 
-#portifolio h2 {
-	margin-bottom: 20px;
-
-}
-
-#portifolio img {
-	width: 100%;
-}
-
-/*contato*/
-
-#contato {
-	color:black;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-items: :center;
+	height: 550px;
+	width: 180px;
 	text-align: center;
-	padding: 20px
+
+
+}
+.analytics div{
+
+	background: -webkit-linear-gradient(-135deg, #251580, #000000);
+    background: -o-linear-gradient(-135deg, #251580, #000000);
+    background: -moz-linear-gradient(-135deg, #251580, #000000);
+    background: linear-gradient(-135deg, #251580, #000000);
+	border-radius: 10px;
+	height: 80px;
+	width: 180px;
+	margin-top: 27px;
+
+
 
 }
 
 /*footer*/
 
 footer{
+	
+
 	text-align: center;
 	padding: 10px;
 	background-color: #f1f1f1;
+}
+
+footer div {
+	width: 100%;
 }
 
 /* media queries */
@@ -220,65 +201,13 @@ footer{
 		justify-content: center;
 	}
 
-	/*sobre*/
-
-	#sobre{
-		height: 250px;
-		height: 30vh;
-		justify-content: center;
-		min-height: 250px;
+	#chart{
+		color:white;
 
 	}
-	/*sobre*/
-	#serviços{
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		max-width: 1000px;
-		margin:0 auto; 
-	}
 
-	#serviços h2{
-		text-align: center;
-		width: 100%;
-	}
 
-	#serviços div { 
-		flex-grow: 1;
-		flex-basis: 150px;
-		padding: 0 10px;
-	}
 
-	/* portifolio*/
-
-	#portifolio{ 
-		flex-direction: row;
-		flex-wrap: wrap;
-    }
-    #portifolio h2 {
-    	width: 100%;
-    	text-align: center;
-
-    }
-
-    #portifolio img {
-    	width: 33.3333333333%;
-    }
-
-    /*contato*/
-
-    #contato{
-    	flex-direction: row;
-    	flex-wrap: wrap;
-    	justify-content: space-around;
-    	max-width: 500px;
-    	margin:0 auto;
-    }
-
-    #contato h2,
-    #contato p{
-    	width: 100%
-
-    }
+    
 }
 
