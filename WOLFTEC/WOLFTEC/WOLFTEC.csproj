@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cadastro.aspx" />
+    <Content Include="CapturaDadosDoBanco.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Esqueci_a_senha.aspx" />
     <Content Include="Global.asax" />
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Cadastro.aspx.designer.cs">
       <DependentUpon>Cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapturaDadosDoBanco.aspx.cs">
+      <DependentUpon>CapturaDadosDoBanco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapturaDadosDoBanco.aspx.designer.cs">
+      <DependentUpon>CapturaDadosDoBanco.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
