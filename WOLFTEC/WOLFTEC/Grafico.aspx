@@ -13,6 +13,48 @@
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+      google.charts.load('current', {'packages':['gauge']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function media() {
+      	var http = new XMLHttpRequest();
+        http.open('GET', 'http://localhost:3000/api', false);
+        http.send(null);        
+		
+        var dados = JSON.parse(http.responseText);
+        return dados.average;
+      }
+
+      function drawChart() {
+
+			
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Média', 0]
+        ]);
+
+        var options = {
+       	  min: 15, max:45,
+          width: 270, height: 600,
+          redFrom: 35, redTo: 45,
+          yellowFrom:28, yellowTo: 34,
+          minorTicks: 5
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+
+        setInterval(function() {
+          data.setValue(0, 1, media());
+          chart.draw(data, options);
+        }, 1000);
+      }
+    </script>
+
+
+    <script type="text/javascript">
         google.charts.load('current', { packages: ['corechart', 'line'] });
         google.charts.setOnLoadCallback(desenharGrafico);
 
@@ -24,7 +66,7 @@
                 data.addColumn('number', 'Tempo: ');
                 data.addColumn('number', 'Temperatura ºC: ');
 
-                grafico = new google.visualization.LineChart(document.getElementById('chartdiv'));
+                grafico = new google.visualization.LineChart(document.getElementById('graficodiv'));
             }
 
             grafico.draw(data, { title: "Real Time" });
@@ -66,12 +108,30 @@
 			</ul>
 		</nav>
 
-		<section>
-		<center><h1>Média: <label id='average'>0.00</label></h1></center>
-	</section>
-	<section style="width:100%">
-		<div id="chartdiv"></div>
-	<section>
+		
+	<center><h1 style="color:white;">Welcome to WolfTec Solutions </h1><center>
+
+		
+	<div class="divgraf">
+		<div class="graf1"  id="chart_div">
+			
+		</div>
+
+		<div class="analytics">
+			<div><h3 style="color:white;">minimo:0.00</h3></div>
+			<div><h3 style="color:white;">1°quartil:0.00</h3></div>
+			<div><h3 style="color:white;">MEDIANA:0.00</h3></div>
+			<div><h3 style="color:white;">3°QUARTIL:0.00</h3></div>
+			<div><h3 style="color:white;">MAXIMO:0.00</h3></div>
+		</div>
+
+		<div class="graf">
+			<div id="graficodiv"></div>
+
+	   </div>
+	</div>
+
+
 	
 </body>
 </html>
