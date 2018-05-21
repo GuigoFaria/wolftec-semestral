@@ -57,7 +57,7 @@ module.exports.ArduinoData = {List: serial.List}
 	var Connection = require('tedious').Connection;  
     var config = {  
         userName: 'guigafaria',  
-        password: 'Abcd@123',  
+        password: 'Abcd@1234',  
         server: 'guilherme-faria.database.windows.net',  
         // If you are on Microsoft Azure, you need this:  
         options: {encrypt: true, database: 'BaseDeDados1'}  
@@ -76,10 +76,10 @@ module.exports.ArduinoData = {List: serial.List}
     var TYPES = require('tedious').TYPES;  
 
     function inserirRegistro(valor) {  
-        request = new Request("INSERT into leitura values (CURRENT_TIMESTAMP, @valor);", function(err) {  
+        request = new Request("INSERT into leitura(data_hora, valor,id_servidor) values (CURRENT_TIMESTAMP, @valor1, 1000);", function(err) {  
          if (err) {  
             console.log(err);}  
         });  
-        request.addParameter('valor', TYPES.Float, valor);  
+        request.addParameter('valor1', TYPES.Float, valor);  
         connection.execSql(request);  
     }  

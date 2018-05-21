@@ -35,12 +35,12 @@ class ArduinoDataRead {
             arduino.pipe(parser);
             
             parser.on('data', (data) => {
-				// inserirRegistro(data); // leitura em tempo real
+                // inserirRegistro(data); // leitura em tempo real
                 this.listData.push(parseFloat(data));
-				
-				var sum = this.listData.reduce((a, b) => a + b, 0);
-				var average = (sum / this.listData.length).toFixed(2);
-				inserirRegistro(average);
+                
+                var sum = this.listData.reduce((a, b) => a + b, 0);
+                var average = (sum / this.listData.length).toFixed(2);
+                inserirRegistro(average);
             });
             
         }).catch(error => console.log(error));
@@ -54,7 +54,7 @@ module.exports.ArduinoData = {List: serial.List}
 
 
 
-	var Connection = require('tedious').Connection;  
+    var Connection = require('tedious').Connection;  
     var config = {  
         userName: 'guigafaria',  
         password: 'Abcd@123',  
@@ -64,22 +64,22 @@ module.exports.ArduinoData = {List: serial.List}
     };  
     var connection = new Connection(config);  
     connection.on('connect', function(err) {  
-		if (err) {
-			console.error('Erro ao tentar conexão com banco '+err);
-		} else {
-			console.log("Conectado com o SQL Server");  
-		}
+        if (err) {
+            console.error('Erro ao tentar conexão com banco '+err);
+        } else {
+            console.log("Conectado com o SQL Server");  
+        }
     }); 
-	
-	
-	var Request = require('tedious').Request  
+    
+    
+    var Request = require('tedious').Request  
     var TYPES = require('tedious').TYPES;  
 
     function inserirRegistro(valor) {  
-        request = new Request("INSERT into leitura values (CURRENT_TIMESTAMP, @valor);", function(err) {  
+        request = new Request("INSERT into leitura(data_hora, valor,id_servidor) values (CURRENT_TIMESTAMP, @valor1, 1000);", function(err) {  
          if (err) {  
             console.log(err);}  
         });  
-        request.addParameter('valor', TYPES.Float, valor);  
+        request.addParameter('valor1', TYPES.Float, valor);  
         connection.execSql(request);  
     }  
