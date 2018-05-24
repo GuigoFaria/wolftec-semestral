@@ -17,7 +17,7 @@
 			<ul>
 				<li><a href="#sobre">SOBRE</a></li>
 				<li><a href="#serviços">SERVIÇOS</a></li>
-				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li><a href="#portfolio">PORTFÓLIO</a></li>
 				<li><a href="#contato">CONTATO</a></li>
 				<li><a href="Cadastro.aspx">CADASTRO</a></li>
 				<li><a href="Login.aspx">LOGIN</a></li>
@@ -42,7 +42,7 @@
 		<section id="sobre">
 			<div>
 			<h1>SOBRE</h1>
-			<p> Nos somos  uma empresa que atua no mercado de IOT, Focado em criação de dispositivos cujo o objetivo é capturar temperatura e mostra-la em tempo real</p>
+			<p> Nós somos uma empresa que atua no mercado de IOT, focado em criação de dispositivos, cujo o objetivo é capturar temperatura e mostra-la em tempo real</p>
 			<a href="#contato" class="botao">ENTRE EM CONTATO</a> </div>
 
 		</section>
@@ -52,23 +52,23 @@
 			<div>
 				<img src="images/a1.png" alt="medição real" width="100px"/>
 				<h3>Medição em tempo real</h3>
-				<p> Pelo seu cadastro , é possivel consulta em tempo real a temperatura constatimente.</p>
+				<p> Pelo seu cadastro , é possivel consultar em tempo real a temperatura.</p>
 			</div>
 			<div>
 				<img src="images/a2.png" alt="grafico da temperatura mensal e semanal" width="100px"/>
-				<h3> Graficos.</h3>
-				<p>É possivel consulta graficos semanais ,mensais e em datas determinadas.</p>
+				<h3> Gráficos.</h3>
+				<p>É possivel consultar graficos semanais, mensais e em datas determinadas.</p>
 			</div>
 			<div>
 				<img src="images/a3.png" width="100px" alt="configuração"/>
 				<h3>Configuração</h3>
-				<p>É Possivel alterar facilmente as configurações para emissoes de avisos e graficos das temperaturas medidas.</p>
+				<p>É Possivel alterar facilmente as configurações para emissões de avisos e gráficos das temperaturas medidas.</p>
 			</div>
 		
 		</section>
 
 		<section id="portifolio">
-			<h2>PORTIFOLIO</h2>
+			<h2>PORTFÓLIO</h2>
 
 
 			<div id="slider">
@@ -115,12 +115,12 @@
 			<div>
 				<img src="images/missao1.png" alt="medição real" width="70px" />
 			<h3>MISSÃO</h3>
-				<p> Nos tornamos maior empresa no seguimento de solição com arduino.</p>
+				<p> Nos tornarmos maior empresa no seguimento de solução com Arduino.</p>
 			</div>
 			<div>
 				<img src="images/visao1.png" alt="grafico da temperatura mensal e semanal" width="70px"/>
 			<h3> VISÃO</h3>
-				<p>É possivel consulta graficos semanais ,mensais e em datas determinadas.</p>
+				<p>É possivel consultar graficos semanais ,mensais e em datas determinadas.</p>
 			</div>
 			<div>
 				<img src="images/valores.png" width="70px" alt="configuração"/>

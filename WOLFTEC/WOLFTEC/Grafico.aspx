@@ -102,14 +102,14 @@
     <nav>
 			<a href="#">WOLFTEC</a>
 			<ul>
-				<li><a href="#serviços">SERVIÇOS</a></li>
-				<li><a href="#contato">CONTATO</a></li>
-				<li><a href="Default.aspx">LOGOUT</a></li>
+				<li><a href="#serviços">Serviços</a></li>
+				<li><a href="#contato">Suporte</a></li>
+				<li><a href="Default.aspx">Logout</a></li>
 			</ul>
 		</nav>
 
 		
-	<center><h1 style="color:white;">Welcome to WolfTec Solutions </h1><center>
+	<center><h1 style="color:white;">Seja bem vindo, <asp:literal ID="Nome" Text="-" runat="server" /></h1><center>
 
 		
 	<div class="divgraf">
@@ -118,11 +118,11 @@
 		</div>
 
 		<div class="analytics">
-			<div><h3 style="color:white;">minimo:0.00</h3></div>
-			<div><h3 style="color:white;">1°quartil:0.00</h3></div>
-			<div><h3 style="color:white;">MEDIANA:0.00</h3></div>
-			<div><h3 style="color:white;">3°QUARTIL:0.00</h3></div>
-			<div><h3 style="color:white;">MAXIMO:0.00</h3></div>
+			<div><h3 style="color:white;">Mínimo: 0.00</h3></div>
+			<div><h3 style="color:white;">1°Quartil: 0.00</h3></div>
+			<div><h3 style="color:white;">Mediana: 0.00</h3></div>
+			<div><h3 style="color:white;">3°Quartil: 0.00</h3></div>
+			<div><h3 style="color:white;">Máximo: 0.00</h3></div>
 		</div>
 
 		<div class="graf">

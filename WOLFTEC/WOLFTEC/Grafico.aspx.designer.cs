@@ -11,5 +11,14 @@ namespace WOLFTEC {
     
     
     public partial class Grafico {
+        
+        /// <summary>
+        /// Controle Nome.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal Nome;
     }
 }

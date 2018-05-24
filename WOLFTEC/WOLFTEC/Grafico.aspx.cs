@@ -11,7 +11,7 @@ namespace WOLFTEC
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Nome.Text = string.Format(Session["nomeUsuario"].ToString());
         }
     }
 }

@@ -20,11 +20,11 @@ namespace WOLFTEC {
             using (SqlConnection conn = new SqlConnection("Server=tcp:guilherme-faria.database.windows.net,1433;Database=BaseDeDados1;User ID=guigafaria;Password=Abcd@123;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")) {
                 conn.Open();
 
-                using (SqlCommand cmd = new SqlCommand("select id_usuario from USUARIO where email = @login and senha = @senha", conn)) {
+                using (SqlCommand cmd = new SqlCommand("select nome from USUARIO where email = @login and senha = @senha", conn)) {
                     cmd.Parameters.AddWithValue("@login", login);
                     cmd.Parameters.AddWithValue("@senha", senhaComparar);
 
-                    int id;
+                    string nome;
                     object o;
                     o = cmd.ExecuteScalar();
                     if (o == null || o == DBNull.Value) {
@@ -32,7 +32,10 @@ namespace WOLFTEC {
                         Server.Transfer("Login.aspx");
                     } else {
                         //usuário e senha OK!
-                        id = (int)o;
+                        nome = (string)o;
+                       
+                        Session["nomeUsuario"] = nome;
+                       
                         Server.Transfer("Grafico.aspx");
                     }
                     
