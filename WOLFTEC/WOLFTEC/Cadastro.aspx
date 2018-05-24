@@ -68,11 +68,27 @@
 						</span>
 					</div>
 					<br/>
-					<div class="wrap-input100 validate-input" data-validate = "Confirme a senha">
-                        <asp:TextBox runat="server"  class="input100" type="password" name="pass" placeholder="Confirme a Senha"/>
+					<div class="wrap-input100 validate-input" data-validate = "Nome do Servidor">
+                        <asp:TextBox runat="server" ID="Nome_Server" class="input100" type="text" name="nome_server" placeholder="Nome do Servidor"/>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
+							<i class="fa fa-database" aria-hidden="true"></i>
+						</span>
+					</div>
+                    <br/>
+					<div class="wrap-input100 validate-input" data-validate = "Temperatura Máxima">
+                        <asp:TextBox runat="server" ID="Temp_Maxima" class="input100" type="text" name="temp_maxima" placeholder="Temperatura Máxima 0.00"/>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-fire" aria-hidden="true"></i>
+						</span>
+					</div>
+                    <br/>
+					<div class="wrap-input100 validate-input" data-validate = "Temperatura Mínima">
+                        <asp:TextBox runat="server" ID="Temp_Minima" class="input100" type="text" name="temp_minima" placeholder="Temperatura Mínima 0.00"/>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-snowflake-o" aria-hidden="true"></i>
 						</span>
 					</div>
 					<br/>
