@@ -40,10 +40,12 @@
  		</header>
 
 		<section id="sobre">
-			<div>
-			<h1>SOBRE</h1>
-			<p> Nós somos uma empresa que atua no mercado de IOT, focado em criação de dispositivos, cujo o objetivo é capturar temperatura e mostra-la em tempo real</p>
-			<a href="#contato" class="botao">ENTRE EM CONTATO</a> </div>
+		   <div>
+			<center>
+              <h1>SOBRE</h1>
+			  <p> Nós somos uma empresa que atua no mercado de IOT, focado em criação de dispositivos, cujo o objetivo é capturar temperatura e mostra-la em tempo real</p>
+			</center>
+           </div>
 
 		</section>
 
@@ -75,32 +77,32 @@
 
 				<div id="caixa-botoes">
 					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p2.jpg) 100% / 100%';
+							document.getElementById('slider').style.background='url(images/PT1.PNG) 100% / 100%';
 						">
 
 					</div>
 
 					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p3.jpg) 100% / 100%';
+							document.getElementById('slider').style.background='url(images/PT2.PNG) 100% / 100%';
 						">
 					</div>
 					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p4.jpg) 100% / 100%';
-						">
-					</div>
-
-					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p5.jpg) 100% / 100%';
+							document.getElementById('slider').style.background='url(images/TP3.PNG) 100% / 100%';
 						">
 					</div>
 
 					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p6.jpg) 100% / 100%';
+							document.getElementById('slider').style.background='url(images/PT4.PNG) 100% / 100%';
 						">
 					</div>
 
 					<div class="botao" onclick="
-							document.getElementById('slider').style.background='url(images/p1.jpg) 100% / 100%';
+							document.getElementById('slider').style.background='url(images/PT5.PNG) 100% / 100%';
+						">
+					</div>
+
+					<div class="botao" onclick="
+							document.getElementById('slider').style.background='url(images/PT6.PNG) 100% / 100%';
 						">
 					</div>
 				</div>
