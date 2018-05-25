@@ -178,15 +178,15 @@ SERVICOS
      width: 90%;   
      margin: auto;
      margin-top: 20px;
-     background: url("../images/p1.jpg") 100% / 100%;
+     background: url("../images/PT1.PNG") 100% / 100%;
  }
 
 #caixa-botoes{
 	position: relative;
 	width: 40%;
 	height: 20%;
-	margin-left: 66%;
-	margin-top: 37%;
+	margin-left: 60%;
+	margin-top: 47%;
 }
 
 .botao{
@@ -194,8 +194,8 @@ SERVICOS
  	float: left;
  	width: 1px;
  	margin-left: 10px;
-	height: 5px;
- 	background: #fff;
+	height: 3px;
+ 	background: #2e9afe;
  }
 
 
