@@ -103,7 +103,7 @@
 			<a href="#">WOLFTEC</a>
 			<ul>
 				<li><a href="#serviços">Serviços</a></li>
-				<li><a href="#contato">Suporte</a></li>
+				<li><a href="https://wolftec.freshdesk.com/support/home">Suporte</a></li>
 				<li><a href="Default.aspx">Logout</a></li>
 			</ul>
 		</nav>
@@ -131,7 +131,10 @@
 	   </div>
 	</div>
 
-
+<script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+        FreshWidget.init("", { "queryString": "&widgetType=popup", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Suporte", "buttonColor": "white", "buttonBg": "#FF0000", "alignment": "4", "offset": "235px", "formHeight": "500px", "url": "https://wolftec.freshdesk.com" });
+</script>
 	
 </body>
 </html>
