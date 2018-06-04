@@ -118,11 +118,11 @@
 		</div>
 
 		<div class="analytics">
-			<div><h3 style="color:white;">Mínimo: 0.00</h3></div>
-			<div><h3 style="color:white;">1°Quartil: 0.00</h3></div>
-			<div><h3 style="color:white;">Mediana: 0.00</h3></div>
-			<div><h3 style="color:white;">3°Quartil: 0.00</h3></div>
-			<div><h3 style="color:white;">Máximo: 0.00</h3></div>
+			<div><h3 style="color:white;">Mínimo: <asp:literal ID="Minimo" Text="-" runat="server" OnLoad="Minimo_Load" /></h3></div>
+			<div><h3 style="color:white;">1°Quartil:<asp:literal ID="Quartil1" Text="-" runat="server" OnLoad="Quartil1_Load"/></h3></div>
+			<div><h3 style="color:white;">Mediana: <asp:literal ID="Mediana" Text="-" runat="server" OnLoad="Mediana_Load" /> </h3></div>
+			<div><h3 style="color:white;">3°Quartil:<asp:literal ID="Quartil3" Text="-" runat="server" OnLoad="Quartil3_Load" /></h3></div>
+			<div><h3 style="color:white;">Máximo:<asp:literal ID="Maximo" Text="-" runat="server" OnLoad="Maximo_Load" /></h3></div>
 		</div>
 
 		<div class="graf">
