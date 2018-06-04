@@ -31,12 +31,14 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['Média', 0]
+          ['Média', 0],
+          ['CPU', 55],
+          ['Network', 68]
         ]);
 
         var options = {
        	  min: 15, max:45,
-          width: 270, height: 600,
+          width: 270, height: 550,
           redFrom: 35, redTo: 45,
           yellowFrom:28, yellowTo: 34,
           minorTicks: 5
