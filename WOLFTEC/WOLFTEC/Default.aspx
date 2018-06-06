@@ -145,7 +145,7 @@
 				
 			<div>
 				<img src="images/h5.png"  alt="email"/>
-				<p><a href="WOLFTEC:email@contato.com">email@contato.com</a></p>
+				<p><a href="https://wolftec.freshdesk.com/support/home">support@wolftec.freshdesk.com</a></p>
 			</div>
 
 		  </section>
