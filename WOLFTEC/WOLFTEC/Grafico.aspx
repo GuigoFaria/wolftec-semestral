@@ -31,16 +31,16 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Label', 'Value'],
-          ['Média', 0],
-          ['CPU', 55],
-          ['Network', 68]
+          ['Tempo Real', 0],
+          ['Mínima', 19],
+          ['Máxima', 28]
         ]);
 
         var options = {
-       	  min: 15, max:45,
+       	  min: 15, max:35,
           width: 270, height: 550,
-          redFrom: 35, redTo: 45,
-          yellowFrom:28, yellowTo: 34,
+          redFrom: 30, redTo: 35,
+          yellowFrom:25, yellowTo: 30,
           minorTicks: 5
         };
 
@@ -48,7 +48,20 @@
 
         chart.draw(data, options);
 
-        setInterval(function() {
+        setInterval(function () {
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json',
+                url: 'CapturaDadosDoBanco.aspx/TemperaturaAtual',
+                data: '{}',
+                success: function (response) {
+                    data.setValue(0, 1, response.d);
+                    chart.draw(data, options);
+                },
+                error: function () {
+                }
+            });
           data.setValue(0, 1, media());
           chart.draw(data, options);
         }, 1000);
