@@ -5,10 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
     	<title>WOLFTEC-Gráfico</title>
+
     <link rel="icon" type="image/png" href="images/wolftec.png"/>
 	<link rel="stylesheet" type="text/css" href="css/css pagina grafico.css"/>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -84,7 +87,7 @@
                 grafico = new google.visualization.LineChart(document.getElementById('graficodiv'));
             }
 
-            grafico.draw(data, { title: "Real Time" });
+            grafico.draw(data, { title: "Média" });
 
             setTimeout(function () {
                 $.ajax({
@@ -141,7 +144,7 @@
 		</div>
 
 		<div class="graf">
-			<div id="graficodiv"></div>
+			<div style="width:900px; height:500px;"    id ="graficodiv"></div>
 
 	   </div>
 	</div>
