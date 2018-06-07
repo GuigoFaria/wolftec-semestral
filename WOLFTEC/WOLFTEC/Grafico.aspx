@@ -118,7 +118,7 @@
 			<a href="#">WOLFTEC</a>
 			<ul>
 				<li><a href="#serviços">Serviços</a></li>
-				<li><a href="https://wolftec.freshdesk.com/support/home">Suporte e FAC </a></li>
+				<li><a href="https://wolftec.freshdesk.com/support/home">Suporte e FAQ </a></li>
 				<li><a href="Default.aspx">Logout</a></li>
 			</ul>
 		</nav>
