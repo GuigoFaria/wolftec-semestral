@@ -117,17 +117,17 @@
 			<div>
 				<img src="images/missao1.png" alt="medição real" width="70px" />
 			<h3>MISSÃO</h3>
-				<p> Nos tornarmos maior empresa no seguimento de solução com Arduino.</p>
+				<p> Nos tornarmos a maior empresa no seguimento de solução com Arduino, Sempre mostrando confinça a nossos cliente, e com total respeito e integridade.</p>
 			</div>
 			<div>
 				<img src="images/visao1.png" alt="grafico da temperatura mensal e semanal" width="70px"/>
 			<h3> VISÃO</h3>
-				<p>É possivel consultar graficos semanais ,mensais e em datas determinadas.</p>
+				<p> Crescer junto com a tecnologia.</p>
 			</div>
 			<div>
 				<img src="images/valores.png" width="70px" alt="configuração"/>
 			<h3>VALORES</h3>
-				<p>É Possivel alterar facilmente as configurações para emissoes de avisos e graficos das temperaturas medidas.</p>
+				<p> Satisfação do cliente ,Valorização e respeito às pessoas , Respeito ao Meio Ambiente e  gerenciamento em equipe, consistente e focado </p>
 			</div>
             </section>
 
