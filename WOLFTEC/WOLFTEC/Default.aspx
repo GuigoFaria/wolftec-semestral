@@ -31,7 +31,7 @@
  		
  		    
  			<h1 class="red">BEM VINDO</h1>
-			<p style="font-size:200%;"> A WOLFTEC E UMA EMPRESA DE TECNOLOGIA,ENVOLVENDO DISPOSITIVO IOT PARA NOSSA SOLUÇÃO.</p>
+			<p style="font-size:180%;"> A WOLFTEC E UMA EMPRESA DE TECNOLOGIA,ENVOLVENDO DISPOSITIVO IOT (INTERNET DAS COISAS) PARA NOSSA SOLUÇÃO.</p>
 			
  		
  			
@@ -117,7 +117,7 @@
 			<div>
 				<img src="images/missao1.png" alt="medição real" width="70px" />
 			<h3>MISSÃO</h3>
-				<p> Nos tornarmos a maior empresa no seguimento de solução com Arduino, Sempre mostrando confinça a nossos cliente, e com total respeito e integridade.</p>
+				<p> Nos tornarmos a maior empresa no seguimento de IOT, Sempre mostrando confinça a nossos cliente, e com total respeito e integridade.</p>
 			</div>
 			<div>
 				<img src="images/visao1.png" alt="grafico da temperatura mensal e semanal" width="70px"/>
@@ -151,8 +151,6 @@
 		  </section>
 		</footer>
 
-		<footer>
-			<p> Desenvolvido por WOLFTEC Solutions. </p>
-		</footer>
+		
 </body>
 </html>
